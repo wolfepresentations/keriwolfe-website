@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Services | Keri Wolfe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">
+        <span class="brand-name">Keri Wolfe</span>
+        <span class="brand-tagline">Effective communications consultant</span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="dropdown">
+          <a href="services.html" class="active">Services ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="workshops.html">Workshops</a></li>
+            <li><a href="presentation-creation.html">Presentation Creation</a></li>
+            <li><a href="slide-makeovers.html">Slide Makeovers</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div style="margin-top: var(--nav-height);"></div>
+
+  <main class="container page-content">
+    <h2>Services</h2>
+    <p>Whether you need a quick slide makeover or a full workshop for your team, I offer a range of services to help you communicate with clarity and confidence.</p>
+
+    <div class="services-grid">
+      <a href="workshops.html" class="service-tile">
+        <img src="https://static.wixstatic.com/media/84770f_0269ee8df42f41e999135e38518c17de.jpg/v1/fill/w_980,h_500,al_c,q_85,enc_avif,quality_auto/84770f_0269ee8df42f41e999135e38518c17de.jpg" alt="Workshops" />
+        <div class="service-tile-body">
+          <h3>Workshops</h3>
+          <span class="text-link" style="font-size:0.78rem;color:var(--accent);text-transform:uppercase;letter-spacing:0.07em;font-weight:500;">Learn more →</span>
+        </div>
+      </a>
+      <a href="presentation-creation.html" class="service-tile">
+        <img src="https://static.wixstatic.com/media/84770f_a8242e1cef6f4465b02cfdf9c1b32787.jpg/v1/fill/w_980,h_500,al_c,q_85,enc_avif,quality_auto/84770f_a8242e1cef6f4465b02cfdf9c1b32787.jpg" alt="Presentation Creation" />
+        <div class="service-tile-body">
+          <h3>Presentation Creation</h3>
+          <span class="text-link" style="font-size:0.78rem;color:var(--accent);text-transform:uppercase;letter-spacing:0.07em;font-weight:500;">Learn more →</span>
+        </div>
+      </a>
+      <a href="slide-makeovers.html" class="service-tile">
+        <img src="https://static.wixstatic.com/media/84770f_19ef516d601c475dbfcd26fc1f487f72.jpg/v1/fill/w_980,h_500,al_c,q_85,enc_avif,quality_auto/84770f_19ef516d601c475dbfcd26fc1f487f72.jpg" alt="Slide Makeovers" />
+        <div class="service-tile-body">
+          <h3>Slide Makeovers</h3>
+          <span class="text-link" style="font-size:0.78rem;color:var(--accent);text-transform:uppercase;letter-spacing:0.07em;font-weight:500;">Learn more →</span>
+        </div>
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <p class="footer-name">Keri Wolfe</p>
+        <p class="footer-title">Effective Communications Consultant</p>
+      </div>
+      <div class="footer-info">
+        <p>Houston, TX</p>
+        <p><a href="mailto:wolfepresentations@gmail.com">wolfepresentations@gmail.com</a></p>
+        <a href="https://www.linkedin.com/in/keriwolfe" target="_blank" rel="noopener" class="linkedin-link">
+          <img src="https://static.wixstatic.com/media/48a2a42b19814efaa824450f23e8a253.png/v1/fill/w_30,h_30,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/48a2a42b19814efaa824450f23e8a253.png" alt="LinkedIn" width="24" height="24" />
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="nav.js"></script>
+</body>
+</html>
