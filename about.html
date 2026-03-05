@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About | Keri Wolfe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">
+        <span class="brand-name">Keri Wolfe</span>
+        <span class="brand-tagline">Effective communications consultant</span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li class="dropdown">
+          <a href="services.html">Services ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="workshops.html">Workshops</a></li>
+            <li><a href="presentation-creation.html">Presentation Creation</a></li>
+            <li><a href="slide-makeovers.html">Slide Makeovers</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div style="margin-top: var(--nav-height);"></div>
+
+  <main class="container page-content">
+    <h2>About Me</h2>
+
+    <div class="about-grid">
+      <div>
+        <img src="https://static.wixstatic.com/media/5cd1aa_509d4fd16a48475eb5dd1df3bbd1c419.jpg/v1/crop/x_352,y_408,w_177,h_176/fill/w_175,h_170,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/5cd1aa_509d4fd16a48475eb5dd1df3bbd1c419.jpg" alt="Headshot of Keri Wolfe" />
+      </div>
+      <div>
+        <p>I have a passion for effective communication and helping you discover how to best express your ideas. My background in this field has mostly dealt with technical content, but I've had experience in non-technical presentations as well. I would love to hear from you — feel free to get in touch using the form below!</p>
+        <p style="margin-top:16px;">My research involvement and background have focused on the Assertion-Evidence approach, created and taught by Michael Alley at Penn State University. You can learn more about this approach and its many advantages at the links below.</p>
+        <p style="margin-top:16px;">
+          <a href="http://www.writing.engr.psu.edu/slides.html" target="_blank" class="text-link">Website</a> &nbsp;·&nbsp;
+          <a href="http://amzn.com/1441982787" target="_blank" class="text-link">Book</a>
+        </p>
+      </div>
+    </div>
+
+    <h2 style="margin-bottom:36px;">Past &amp; Present</h2>
+
+    <div class="section-block">
+      <h4>Education</h4>
+      <p>Originally from Pennsylvania, Keri graduated from Penn State University in 2013, with a B.S. in Chemical Engineering, a minor in German, and Honors in Communication Arts &amp; Sciences. As a Penn State Engineering Ambassador, Keri delivered frequent presentations to diverse audiences ranging from 4 to 400 in size.</p>
+    </div>
+
+    <div class="section-block">
+      <h4>Research</h4>
+      <p>During her time as an undergraduate, Keri worked closely with Michael Alley in conducting research experiments related to the Assertion-Evidence method and presented work at the 2011 and 2012 American Society for Engineering Education National Conferences. She completed her thesis and first-authored a paper in the field of Effective Engineering Communication.</p>
+    </div>
+
+    <div class="section-block">
+      <h4>Career</h4>
+      <p>Keri is currently working as a technology consultant. Past roles include product management in the software industry, project management with an engineering consulting firm, and engineering roles in the energy industry. She has lived and worked in both the US and Germany and is currently based in Houston, TX. Through her broad background, Keri has been exposed to the culture and communication style within diverse organizations.</p>
+    </div>
+
+    <div style="border-top: 1px solid #e8e4de; padding-top: 56px; margin-top: 16px;">
+      <h2 style="margin-bottom:28px;">Get in Touch</h2>
+      <form class="contact-form" id="contact-form" onsubmit="handleSubmit(event)">
+        <input type="text" name="name" placeholder="Name" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <input type="text" name="subject" placeholder="Subject" />
+        <textarea name="message" placeholder="Message" required></textarea>
+        <div class="form-success" id="form-success">✓ Message received! I'll be in touch soon.</div>
+        <button type="submit" class="btn">Send</button>
+      </form>
+      <p style="margin-top:28px; color:var(--light); font-size:0.85rem;">
+        Houston, TX &nbsp;·&nbsp; <a href="mailto:wolfepresentations@gmail.com" style="color:var(--accent);">wolfepresentations@gmail.com</a> &nbsp;·&nbsp; Tel: +1.484.767.0199
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <p class="footer-name">Keri Wolfe</p>
+        <p class="footer-title">Effective Communications Consultant</p>
+      </div>
+      <div class="footer-info">
+        <p>Houston, TX</p>
+        <p><a href="mailto:wolfepresentations@gmail.com">wolfepresentations@gmail.com</a></p>
+        <a href="https://www.linkedin.com/in/keriwolfe" target="_blank" rel="noopener" class="linkedin-link">
+          <img src="https://static.wixstatic.com/media/48a2a42b19814efaa824450f23e8a253.png/v1/fill/w_30,h_30,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/48a2a42b19814efaa824450f23e8a253.png" alt="LinkedIn" width="24" height="24" />
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/nav.js"></script>
+  <script>
+    function handleSubmit(e) {
+      e.preventDefault();
+      document.getElementById('form-success').style.display = 'block';
+      e.target.reset();
+    }
+  </script>
+</body>
+</html>
